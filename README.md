@@ -5,7 +5,7 @@ Cmp source for symbols input with Typst names.
 ## Installation
 
 ```lua
--- Lazy.nvim
+-- Lazy.vim
 {
     "hrsh7th/nvim-cmp",
     opts = function(_, opts)
