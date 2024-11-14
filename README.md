@@ -13,7 +13,7 @@ opts = function(_, opts)
 end,
 dependencies = {
     {
-    "eric-song-nop/cmp-typst-symbols",
+    "Eric-Song-Nop/cmp-typst-symbols",
     },
 },
 },
