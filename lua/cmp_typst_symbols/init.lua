@@ -19,7 +19,6 @@ end
 
 source.complete = function(self, request, callback)
 	local option = request.option
-	vim.print(option)
 	if not self.items then
 		if option.use_emoji then
 			self.items = mixed_items
@@ -27,7 +26,6 @@ source.complete = function(self, request, callback)
 			self.items = typst_items
 		end
 	end
-	vim.print(self.items)
 	callback(self.items)
 end
 
